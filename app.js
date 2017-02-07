@@ -1,8 +1,10 @@
-angular.module('uctc');
+angular.module('uctc',[]);
 
-angular.module('uctc').controller('ctrl',function(constants, caLogic, $scope){
+angular.module('uctc').controller('homeCtrl',function(caLogic, $scope){
   $scope.rows = [1];
   $scope.$on('addRow',function(){
-    $scope.rows.push('x');
+    console.log('event');
+    $scope.rows.push($scope.rows.length+1);
+
   });
 });

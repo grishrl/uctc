@@ -1,171 +1,172 @@
 angular.module('uctc').provider('constants',function(){
   var constantsProvider = {};
 
+
   //resource and time costs of each unit.
   constantsProvider.unitCostTimeTable = [
 {
-  "Unit" : "Archer ",
+  "Unit" : "Archer",
   "W" : 25,
   "F" : 0,
   "G" : 45,
   "Time" : 35
 },
 {
-  "Unit" : "Battering Ram ",
+  "Unit" : "Battering Ram",
   "W" : 160,
   "F" : 0,
   "G" : 75,
   "Time" : 36
 },
  {
-  "Unit" : "Bombard Cannon ",
+  "Unit" : "Bombard Cannon",
   "W" : 225,
   "F" : 0,
   "G" : 225,
   "Time" : 57
 },
  {
-  "Unit" : "Camel ",
+  "Unit" : "Camel",
   "W" : 0,
   "F" : 55,
   "G" : 60,
   "Time" : 22
 },
  {
-  "Unit" : "Cannon Galleon ",
+  "Unit" : "Cannon Galleon",
   "W" : 200,
   "F" : 0,
   "G" : 150,
   "Time" : 46
 },
  {
-  "Unit" : "Cavalry Archer ",
+  "Unit" : "Cavalry Archer",
   "W" : 40,
   "F" : 0,
   "G" : 70,
   "Time" : 34
 },
  {
-  "Unit" : "Demolition Ship ",
+  "Unit" : "Demolition Ship",
   "W" : 70,
   "F" : 0,
   "G" : 50,
   "Time" : 30
 },
  {
-  "Unit" : "Eagle Warrior ",
+  "Unit" : "Eagle Warrior",
   "W" : 0,
   "F" : 25,
   "G" : 50,
   "Time" : 35
 },
  {
-  "Unit" : "Fire Ship ",
+  "Unit" : "Fire Ship",
   "W" : 75,
   "F" : 0,
   "G" : 45,
   "Time" : 36
 },
 {
-  "Unit" : "Fishing Ship ",
+  "Unit" : "Fishing Ship",
   "W" : 75,
   "F" : 0,
   "G" : 0,
   "Time" : 40
 },
  {
-  "Unit" : "Galley ",
+  "Unit" : "Galley",
   "W" : 90,
   "F" : 0,
   "G" : 30,
   "Time" : 60
 },
  {
-  "Unit" : "Hand Cannoneer ",
+  "Unit" : "Hand Cannoneer",
   "W" : 0,
   "F" : 45,
   "G" : 50,
   "Time" : 34
 },
 {
-  "Unit" : "Knight ",
+  "Unit" : "Knight",
   "W" : 0,
   "F" : 60,
   "G" : 75,
   "Time" : 30
 },
 {
-  "Unit" : "Scout Cavalry ",
+  "Unit" : "Scout Cavalry",
   "W" : 0,
   "F" : 80,
   "G" : 0,
   "Time" : 30
 },
  {
-  "Unit" : "Mangonel ",
+  "Unit" : "Mangonel",
   "W" : 160,
   "F" : 0,
   "G" : 135,
   "Time" : 46
 },
 {
-  "Unit" : "Monk ",
+  "Unit" : "Monk",
   "W" : 0,
   "F" : 0,
   "G" : 100,
   "Time" : 51
 },
  {
-  "Unit" : "Scorpion ",
+  "Unit" : "Scorpion",
   "W" : 75,
   "F" : 0,
   "G" : 75,
   "Time" : 30
 },
  {
-  "Unit" : "Skirmisher ",
+  "Unit" : "Skirmisher",
   "W" : 35,
   "F" : 25,
   "G" : 0,
   "Time" : 22
 },
 {
-  "Unit" : "Spearman ",
+  "Unit" : "Spearman",
   "W" : 25,
   "F" : 35,
   "G" : 0,
   "Time" : 22
 },
  {
-  "Unit" : "Swordsman ",
+  "Unit" : "Swordsman",
   "W" : 0,
   "F" : 60,
   "G" : 20,
   "Time" : 22
 },
 {
-  "Unit" : "Trade Cart ",
+  "Unit" : "Trade Cart",
   "W" : 100,
   "F" : 0,
   "G" : 50,
   "Time" : 50
 },
 {
-  "Unit" : "Trade Cog ",
+  "Unit" : "Trade Cog",
   "W" : 100,
   "F" : 0,
   "G" : 50,
   "Time" : 36
 },
  {
-  "Unit" : "Transport Ship ",
+  "Unit" : "Transport Ship",
   "W" : 125,
   "F" : 0,
   "G" : 0,
   "Time" : 46
 },
 {
-  "Unit" : "Trebuchet ",
+  "Unit" : "Trebuchet",
   "W" : 200,
   "F" : 0,
   "G" : 200,
@@ -179,147 +180,147 @@ angular.module('uctc').provider('constants',function(){
   "Time" : 25
 },
  {
-  "Unit" : "Berserk ",
+  "Unit" : "Berserk",
   "W" : 0,
   "F" : 65,
   "G" : 25,
   "Time" : 16
 },
 {
-  "Unit" : "Cataphract ",
+  "Unit" : "Cataphract",
   "W" : 0,
   "F" : 60,
   "G" : 75,
   "Time" : 20
 },
 {
-  "Unit" : "Chu Ko Nu ",
+  "Unit" : "Chu Ko Nu",
   "W" : 40,
   "F" : 0,
   "G" : 35,
   "Time" : 19
 },
 {
-  "Unit" : "Conquistador ",
+  "Unit" : "Conquistador",
   "W" : 0,
   "F" : 60,
   "G" : 70,
   "Time" : 24
 },
  {
-  "Unit" : "Huskarl ",
+  "Unit" : "Huskarl",
   "W" : 0,
   "F" : 80,
   "G" : 40,
   "Time" : 13
 },
 {
-  "Unit" : "Jaguar Warrior ",
+  "Unit" : "Jaguar Warrior",
   "W" : 0,
   "F" : 60,
   "G" : 30,
   "Time" : 17
 },
 {
-  "Unit" : "Janissary ",
+  "Unit" : "Janissary",
   "W" : 0,
   "F" : 60,
   "G" : 55,
   "Time" : 17
 },
 {
-  "Unit" : "Longboat ",
+  "Unit" : "Longboat",
   "W" : 100,
   "F" : 0,
   "G" : 50,
   "Time" : 25
 },
  {
-  "Unit" : "Longbowman ",
+  "Unit" : "Longbowman",
   "W" : 35,
   "F" : 0,
   "G" : 40,
   "Time" : 19
 },
  {
-  "Unit" : "Mameluke ",
+  "Unit" : "Mameluke",
   "W" : 0,
   "F" : 55,
   "G" : 85,
   "Time" : 23
 },
 {
-  "Unit" : "Mangudai ",
+  "Unit" : "Mangudai",
   "W" : 55,
   "F" : 0,
   "G" : 65,
   "Time" : 26
 },
  {
-  "Unit" : "Missionary ",
+  "Unit" : "Missionary",
   "W" : 0,
   "F" : 0,
   "G" : 100,
   "Time" : 51
 },
  {
-  "Unit" : "Plumed Archer ",
+  "Unit" : "Plumed Archer",
   "W" : 46,
   "F" : 0,
   "G" : 46,
   "Time" : 16
 },
 {
-  "Unit" : "Samurai ",
+  "Unit" : "Samurai",
   "W" : 0,
   "F" : 60,
   "G" : 30,
   "Time" : 9
 },
  {
-  "Unit" : "Tarkan ",
+  "Unit" : "Tarkan",
   "W" : 0,
   "F" : 60,
   "G" : 60,
   "Time" : 14
 },
  {
-  "Unit" : "Throwing Axeman ",
+  "Unit" : "Throwing Axeman",
   "W" : 0,
   "F" : 55,
   "G" : 25,
   "Time" : 17
 },
  {
-  "Unit" : "Teutonic Knight ",
+  "Unit" : "Teutonic Knight",
   "W" : 0,
   "F" : 85,
   "G" : 40,
   "Time" : 12
 },
  {
-  "Unit" : "Turtle Ship ",
+  "Unit" : "Turtle Ship",
   "W" : 200,
   "F" : 0,
   "G" : 200,
   "Time" : 50
 },
 {
-  "Unit" : "War Elephant ",
+  "Unit" : "War Elephant",
   "W" : 0,
   "F" : 200,
   "G" : 75,
   "Time" : 31
 },
  {
-  "Unit" : "War Wagon ",
+  "Unit" : "War Wagon",
   "W" : 120,
   "F" : 0,
   "G" : 60,
   "Time" : 25
 },
 {
-  "Unit" : "Woad Raider ",
+  "Unit" : "Woad Raider",
   "W" : 0,
   "F" : 65,
   "G" : 25,
@@ -333,8 +334,9 @@ angular.module('uctc').provider('constants',function(){
   "Time" : 580
 }
   ];
+
   //collection rates of villiger
-  constantsProvider.collectionRate = {
+constantsProvider.collectionRate = {
   "W": 0.38,
   "F": 0.3,
   "G": 0.37,
@@ -390,4 +392,17 @@ constantsProvider.unitList = [
 "War Wagon",
 "Woad Raider"
 ];
+
+constantsProvider.$get = function() {
+      var getter = {};
+
+      getter.unitCostTimeTable = constantsProvider.unitCostTimeTable;
+      getter.collectionRate = constantsProvider.collectionRate;
+      getter.unitList = constantsProvider.unitList;
+
+      return getter;
+  };
+
+  return constantsProvider;
+
 });
